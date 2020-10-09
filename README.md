@@ -1,13 +1,18 @@
 # composer
 
 создаем папку с файлом composer.json 
+
 Начинаем работу с composer
 
 
 composer update
+
 unalias $(alias | grep winpty | cut -d"=" -f1 | cut -d" " -f2)
+
 php -r "readfile('https://getcomposer.org/installer');"|php
+
 php composer.phar -v
+
 composer install
 
 Далее устанавливаем пакеты
